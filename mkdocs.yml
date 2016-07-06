@@ -1,0 +1,5 @@
+site_name: Python Resources
+pages:
+- Home: index.md
+- Getting Setup: setup.md
+theme: readthedocs
