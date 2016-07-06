@@ -1,0 +1,54 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/setup/", 
+            "text": "In order to begin learning about Python, we'll need to do a few things. For starters, from here on out when I mention \nPython\n you can assume I'm talking about Python 2.7. In the event I mention \nPython 3.5\n, I will explicitly state \nPython3\n. For those interested in the difference between Python 2.7 and Python 3.5, please see the following: \nPython 2 or Python 3\n\n\nInstalling Python\n\n\nOSX \n Linux\n\n\nYou're in luck! In all likelihood Python is already installed. To confirm this open up a terminal and type \npython --version\n\n\n$ python --version\nPython 2.7.11\n\n\n\n\nWindows 10\n\n\nIf you are using Windows 10, you may be in luck. Recently Microsoft has added\nnative bash support. \n\n\nWindows 7 \n 8.1\n\n\nYou will want to download\n\n\nRecommended Text Editors", 
+            "title": "Getting Setup"
+        }, 
+        {
+            "location": "/setup/#installing-python", 
+            "text": "", 
+            "title": "Installing Python"
+        }, 
+        {
+            "location": "/setup/#osx-linux", 
+            "text": "You're in luck! In all likelihood Python is already installed. To confirm this open up a terminal and type  python --version  $ python --version\nPython 2.7.11", 
+            "title": "OSX &amp; Linux"
+        }, 
+        {
+            "location": "/setup/#windows-10", 
+            "text": "If you are using Windows 10, you may be in luck. Recently Microsoft has added\nnative bash support.", 
+            "title": "Windows 10"
+        }, 
+        {
+            "location": "/setup/#windows-7-81", 
+            "text": "You will want to download", 
+            "title": "Windows 7 &amp; 8.1"
+        }, 
+        {
+            "location": "/setup/#recommended-text-editors", 
+            "text": "", 
+            "title": "Recommended Text Editors"
+        }
+    ]
+}
