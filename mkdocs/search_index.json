@@ -2,27 +2,27 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "So you want to learn Python?\n\n\nThe aim of this site is to aggregate the number of resources available for learning Python. Think of this more as a library or starting point. Sure you could just Google \n\"Python Resources\"\n and start your trip down Python road! But, let this site act as a resource to off load the curation for you!\n\n\nZen of Python\n\n\nThe \nZen of Python\n is a set of programming practices that have been influential in the design of Python. Read it, it really does a great job an encapsulating good programming practices (not just for Python) to follow.\n\n\n import this\nThe Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\nExplicit is better than implicit.\nSimple is better than complex.\nComplex is better than complicated.\nFlat is better than nested.\nSparse is better than dense.\nReadability counts.\nSpecial cases aren't special enough to break the rules.\nAlthough practicality beats purity.\nErrors should never pass silently.\nUnless explicitly silenced.\nIn the face of ambiguity, refuse the temptation to guess.\nThere should be one-- and preferably only one --obvious way to do it.\nAlthough that way may not be obvious at first unless you're Dutch.\nNow is better than never.\nAlthough never is often better than *right* now.\nIf the implementation is hard to explain, it's a bad idea.\nIf the implementation is easy to explain, it may be a good idea.\nNamespaces are one honking great idea -- let's do more of those!\n\n\n\n\nSite Layout\n\n\n\n\nGetting Setup\n\n\nLearning Materials\n\n\nFun Problems!", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-mkdocs", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to MkDocs"
+            "location": "/#so-you-want-to-learn-python", 
+            "text": "The aim of this site is to aggregate the number of resources available for learning Python. Think of this more as a library or starting point. Sure you could just Google  \"Python Resources\"  and start your trip down Python road! But, let this site act as a resource to off load the curation for you!", 
+            "title": "So you want to learn Python?"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
+            "location": "/#zen-of-python", 
+            "text": "The  Zen of Python  is a set of programming practices that have been influential in the design of Python. Read it, it really does a great job an encapsulating good programming practices (not just for Python) to follow.   import this\nThe Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\nExplicit is better than implicit.\nSimple is better than complex.\nComplex is better than complicated.\nFlat is better than nested.\nSparse is better than dense.\nReadability counts.\nSpecial cases aren't special enough to break the rules.\nAlthough practicality beats purity.\nErrors should never pass silently.\nUnless explicitly silenced.\nIn the face of ambiguity, refuse the temptation to guess.\nThere should be one-- and preferably only one --obvious way to do it.\nAlthough that way may not be obvious at first unless you're Dutch.\nNow is better than never.\nAlthough never is often better than *right* now.\nIf the implementation is hard to explain, it's a bad idea.\nIf the implementation is easy to explain, it may be a good idea.\nNamespaces are one honking great idea -- let's do more of those!", 
+            "title": "Zen of Python"
         }, 
         {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/#site-layout", 
+            "text": "Getting Setup  Learning Materials  Fun Problems!", 
+            "title": "Site Layout"
         }, 
         {
             "location": "/setup/", 
-            "text": "In order to begin learning about Python, we'll need to do a few things. For starters, from here on out when I mention \nPython\n you can assume I'm talking about Python 2.7. In the event I mention \nPython 3.5\n, I will explicitly state \nPython3\n. For those interested in the difference between Python 2.7 and Python 3.5, please see the following: \nPython 2 or Python 3\n\n\nInstalling Python\n\n\nOSX \n Linux\n\n\nYou're in luck! In all likelihood Python is already installed. To confirm this open up a terminal and type \npython --version\n\n\n$ python --version\nPython 2.7.11\n\n\n\n\nWindows 10\n\n\nIf you are using Windows 10, you may be in luck. Recently Microsoft has added\nnative bash support. \n\n\nWindows 7 \n 8.1\n\n\nYou will want to download\n\n\nRecommended Text Editors", 
+            "text": "In order to begin learning about Python, we'll need to do a few things. For starters, from here on out when I mention \nPython\n you can assume I'm talking about Python 2.7. In the event I mention \nPython 3.5\n, I will explicitly state \nPython3\n. For those interested in the difference between Python 2.7 and Python 3.5, please see the following: \nPython 2 or Python 3\n\n\nInstalling Python\n\n\nOSX \n Linux\n\n\nYou're in luck! In all likelihood Python is already installed. To confirm this open up a terminal and type \npython --version\n\n\n$ python --version\nPython 2.7.11\n\n\n\n\nWindows 10\n\n\nIf you are using Windows 10, you may be in luck. Recently Microsoft has added\nsupport for a bash environment (read more \nBash on Ubuntu on Windows\n). This update it set to be released to the public early August 2016.\n\n\nDepending on how it works out, this is likely to be your best bet! Otherwise you can follow the same procedures below for Windows 7 and 8.\n\n\nWindows 7 \n 8.1\n\n\nYou will want to download\n\n\nRecommended Text Editors", 
             "title": "Getting Setup"
         }, 
         {
@@ -37,7 +37,7 @@
         }, 
         {
             "location": "/setup/#windows-10", 
-            "text": "If you are using Windows 10, you may be in luck. Recently Microsoft has added\nnative bash support.", 
+            "text": "If you are using Windows 10, you may be in luck. Recently Microsoft has added\nsupport for a bash environment (read more  Bash on Ubuntu on Windows ). This update it set to be released to the public early August 2016.  Depending on how it works out, this is likely to be your best bet! Otherwise you can follow the same procedures below for Windows 7 and 8.", 
             "title": "Windows 10"
         }, 
         {
@@ -49,6 +49,86 @@
             "location": "/setup/#recommended-text-editors", 
             "text": "", 
             "title": "Recommended Text Editors"
+        }, 
+        {
+            "location": "/materials/", 
+            "text": "Overview\n\n\nThere are a number of ways to learning Python (or any programming language!). Some of us like to go at our own pace with text books, others like to sit through courses. Some even prefer just to dive in and figure it out as they go. It doesn't matter what you do, it only matters that you keep at it!\n\n\nBelow I've listed a number of potential resources you can use to begin/refresh your adventure into Python.\n\n\nRecomendations\n\n\nFor absolute beginners I would recomend you check out \nCodecademy's Learn Python\n course. It's probably the easiest to begin with. It does a good job of holding your hand through the process and does not require any initial setup. Once you've completed the course then you can begin to explore other materials.\n\n\nIf you are already familar with software development, you can disregard the statement above and begin exploration at your own discretion!\n\n\nOfficial Docs\n\n\nAs you code more and more, you can expect to read documentation more and more! Python is no exception! At least the standard library is really well documented. Keep the following link handy: \nPython 2.7 Official Docs\n.\n\n\neBooks\n\n\nLearn Python The Hard Way\n\n\nZed Shaw's \nLearn Python the Hard Way\n takes a sink or swim type of approach. You will be coding from the get go as each lesson is a exercise in Python coding.\n\n\nPython Programming\n\n\nPython Programming is a wikibook that covers the basic and further delves into advanced topics. \n\n\nThink Python: How to Think Like a Computer Scientist\n\n\nWhile this book covers all the basics of Python, it is not really a \"learn Python\" book. It instead aims to mold the reader into a Python developer. Therefore you can expect a more philosophical approach to learning Python (hence the title!).\n\n\nOnline Lecture Based Courses\n\n\nIntroduction to Python for Data Science\n\n\nMicrosoft's edX course covers the basics of Python and currently has good reviews. It also goes a little deeper into data analysis covering useful Python packages such as Numpy and Pandas.\n\n\nGoogle's Python Class\n\n\nNick Parlante's course \nGoogle's Python Course\n comes highly recommended. It covers the basics of Python and includes videos for each lecture. \n\n\nOnline Problem Based Courses\n\n\nCodecademy Python\n\n\nCodecademy provides an interactive introduction to learning Python. For the most part you can write and execute Python (I'm sure there are some limitations!) code from your browser. This allows you to get comfortable with Python first before getting everything set up on your local machine.\n\n\nLearnPython.org\n\n\nWhile not as polished as Codeacemy, LearnPython.org also allows you to become introduced to Python via your browser. Unlike Codeacdemy, LearnPython does include introductions into more advanced topics.\n\n\nRosalind - Python Village\n\n\nRosalind has a set of problems called \nPython Village\n. While Python Vilage is only 6 problems, it is more so meant to get you off your feet quickly. Think of Python Village as a segway to working on Rosalind's other problem sets, for example \nBioinformatics Stronghold\n.  \n\n\nSoftware Carpentry - Programming In Python\n\n\nIf you're feeling comfortable with Python, head on over to the Software Carpentry to go a little deeper into Python. Keep in mind, this one skips some of the basics of Python and instead just throws you into the mix.", 
+            "title": "Learning Materials"
+        }, 
+        {
+            "location": "/materials/#overview", 
+            "text": "There are a number of ways to learning Python (or any programming language!). Some of us like to go at our own pace with text books, others like to sit through courses. Some even prefer just to dive in and figure it out as they go. It doesn't matter what you do, it only matters that you keep at it!  Below I've listed a number of potential resources you can use to begin/refresh your adventure into Python.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/materials/#recomendations", 
+            "text": "For absolute beginners I would recomend you check out  Codecademy's Learn Python  course. It's probably the easiest to begin with. It does a good job of holding your hand through the process and does not require any initial setup. Once you've completed the course then you can begin to explore other materials.  If you are already familar with software development, you can disregard the statement above and begin exploration at your own discretion!", 
+            "title": "Recomendations"
+        }, 
+        {
+            "location": "/materials/#official-docs", 
+            "text": "As you code more and more, you can expect to read documentation more and more! Python is no exception! At least the standard library is really well documented. Keep the following link handy:  Python 2.7 Official Docs .", 
+            "title": "Official Docs"
+        }, 
+        {
+            "location": "/materials/#ebooks", 
+            "text": "", 
+            "title": "eBooks"
+        }, 
+        {
+            "location": "/materials/#learn-python-the-hard-way", 
+            "text": "Zed Shaw's  Learn Python the Hard Way  takes a sink or swim type of approach. You will be coding from the get go as each lesson is a exercise in Python coding.", 
+            "title": "Learn Python The Hard Way"
+        }, 
+        {
+            "location": "/materials/#python-programming", 
+            "text": "Python Programming is a wikibook that covers the basic and further delves into advanced topics.", 
+            "title": "Python Programming"
+        }, 
+        {
+            "location": "/materials/#think-python-how-to-think-like-a-computer-scientist", 
+            "text": "While this book covers all the basics of Python, it is not really a \"learn Python\" book. It instead aims to mold the reader into a Python developer. Therefore you can expect a more philosophical approach to learning Python (hence the title!).", 
+            "title": "Think Python: How to Think Like a Computer Scientist"
+        }, 
+        {
+            "location": "/materials/#online-lecture-based-courses", 
+            "text": "", 
+            "title": "Online Lecture Based Courses"
+        }, 
+        {
+            "location": "/materials/#introduction-to-python-for-data-science", 
+            "text": "Microsoft's edX course covers the basics of Python and currently has good reviews. It also goes a little deeper into data analysis covering useful Python packages such as Numpy and Pandas.", 
+            "title": "Introduction to Python for Data Science"
+        }, 
+        {
+            "location": "/materials/#googles-python-class", 
+            "text": "Nick Parlante's course  Google's Python Course  comes highly recommended. It covers the basics of Python and includes videos for each lecture.", 
+            "title": "Google's Python Class"
+        }, 
+        {
+            "location": "/materials/#online-problem-based-courses", 
+            "text": "", 
+            "title": "Online Problem Based Courses"
+        }, 
+        {
+            "location": "/materials/#codecademy-python", 
+            "text": "Codecademy provides an interactive introduction to learning Python. For the most part you can write and execute Python (I'm sure there are some limitations!) code from your browser. This allows you to get comfortable with Python first before getting everything set up on your local machine.", 
+            "title": "Codecademy Python"
+        }, 
+        {
+            "location": "/materials/#learnpythonorg", 
+            "text": "While not as polished as Codeacemy, LearnPython.org also allows you to become introduced to Python via your browser. Unlike Codeacdemy, LearnPython does include introductions into more advanced topics.", 
+            "title": "LearnPython.org"
+        }, 
+        {
+            "location": "/materials/#rosalind-python-village", 
+            "text": "Rosalind has a set of problems called  Python Village . While Python Vilage is only 6 problems, it is more so meant to get you off your feet quickly. Think of Python Village as a segway to working on Rosalind's other problem sets, for example  Bioinformatics Stronghold .", 
+            "title": "Rosalind - Python Village"
+        }, 
+        {
+            "location": "/materials/#software-carpentry-programming-in-python", 
+            "text": "If you're feeling comfortable with Python, head on over to the Software Carpentry to go a little deeper into Python. Keep in mind, this one skips some of the basics of Python and instead just throws you into the mix.", 
+            "title": "Software Carpentry - Programming In Python"
         }
     ]
 }
