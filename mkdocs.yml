@@ -1,5 +1,8 @@
 site_name: Python Resources
 pages:
 - Home: index.md
+- Course Resources: course-resources.md
 - Getting Setup: setup.md
+- Basic Unix Commands: basic-unix.md
+- Advanced Unix Commands: advanced-unix.md
 theme: readthedocs
