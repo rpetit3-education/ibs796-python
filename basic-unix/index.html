@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>Basic Unix Commands - IBS796 - Advanced Python Programming in Bioinformatics</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Basic Unix Commands";
+    var mkdocs_page_input_path = "basic-unix.md";
+    var mkdocs_page_url = "/basic-unix/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> IBS796 - Advanced Python Programming in Bioinformatics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../course-materials/">Course Materials</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../getting-setup/">Getting Setup</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Basic Unix Commands</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#what-is-unix">What is Unix?</a></li>
+                
+                    <li><a class="toctree-l4" href="#cat">cat</a></li>
+                
+                    <li><a class="toctree-l4" href="#cd">cd</a></li>
+                
+                    <li><a class="toctree-l4" href="#chmod">chmod</a></li>
+                
+                    <li><a class="toctree-l4" href="#cp">cp</a></li>
+                
+                    <li><a class="toctree-l4" href="#head">head</a></li>
+                
+                    <li><a class="toctree-l4" href="#ls">ls</a></li>
+                
+                    <li><a class="toctree-l4" href="#man">man</a></li>
+                
+                    <li><a class="toctree-l4" href="#mkdir">mkdir</a></li>
+                
+                    <li><a class="toctree-l4" href="#mv">mv</a></li>
+                
+                    <li><a class="toctree-l4" href="#pwd">pwd</a></li>
+                
+                    <li><a class="toctree-l4" href="#rm">rm</a></li>
+                
+                    <li><a class="toctree-l4" href="#tail">tail</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">IBS796 - Advanced Python Programming in Bioinformatics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Basic Unix Commands</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>During this course you will have to play with some basic Unix commands. Below are a list of Unix commands you are expected to become comfortable with. You are highly encouraged to further explore Unix, as there are some super useful commands that are outside the context of this course.</p>
+<p>You are strongly encouraged to further investigate the optional parameters of each of these commands!</p>
+<h1 id="what-is-unix">What is Unix?</h1>
+<p>First let's clarify what Unix is and why its so cool! Unix is a (and I'm paraphrasing from the <a href="https://en.wikipedia.org/wiki/Unix">Wikipedia entry</a>) multi-user multi-tasking operating systems. It was originally developed by Bell Labs in 1970. Fast forward a few decades, it is the basis for Apple's OS X and the many flavors of <a href="https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions">Linux</a>. Even Microsoft has begun to implement it into their latest Windows 10 versions via <a href="https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux">Windows Subsystem for Linux</a>.</p>
+<h2 id="cat"><code>cat</code></h2>
+<p>The <code>cat</code> command allows you to concatenate and print files. For more information see the <a href="https://en.wikipedia.org/wiki/Cat_(Unix)">Wikipedia Entry</a></p>
+<h4 id="example-usage">Example Usage</h4>
+<pre><code>cat somefile.txt
+cat file-001.txt file-002.txt ... file-XYZ.txt
+</code></pre>
+
+<h2 id="cd"><code>cd</code></h2>
+<p>Good luck avoiding <code>cd</code>! The <code>cd</code> command allows you to change the working directory, thus navigate between directories. For more information see the <a href="https://en.wikipedia.org/wiki/Cd_(command)">Wikipedia Entry</a></p>
+<h4 id="example-usage_1">Example Usage</h4>
+<pre><code>cd a_directory/
+
+# ~/ points to your home directory
+cd ~/data_analysis/
+</code></pre>
+
+<h2 id="chmod"><code>chmod</code></h2>
+<p>The <code>chmod</code> command allows you to change the file modes/attributes/permissions. For example is allows you to determing who can read or write to one of your files. For more information see the <a href="https://en.wikipedia.org/wiki/Chmod">Wikipedia Entry</a></p>
+<h4 id="example-usage_2">Example Usage</h4>
+<pre><code># Make potential examples!
+# Make a file readable and executable by everyone
+chmod 755 my-python-script.py
+</code></pre>
+
+<h2 id="cp"><code>cp</code></h2>
+<p>The <code>cp</code> command allows you to copy files. For more information see the <a href="https://en.wikipedia.org/wiki/Cp_(Unix)">Wikipedia Entry</a></p>
+<h4 id="example-usage_3">Example Usage</h4>
+<pre><code>cp FILE NEW_FILE
+
+cp my-large-text-file.txt my-second-large-text-file.txt
+</code></pre>
+
+<h2 id="head"><code>head</code></h2>
+<p>Sometimes you don't need to read all of a file. The <code>head</code> command will print only the first part of files. For more information see the <a href="https://en.wikipedia.org/wiki/Head_(Unix)">Wikipedia Entry</a></p>
+<h4 id="example-usage_4">Example Usage</h4>
+<pre><code># View first 10 lines of a file
+head my-large-file.txt
+
+# View first line of a file
+head -n 1 my-file.txt
+</code></pre>
+
+<h2 id="ls"><code>ls</code></h2>
+<p>Another command which is hard to avoid is the <code>ls</code> command. <code>ls</code> is used to list the contents of a directory. For more information see the <a href="https://en.wikipedia.org/wiki/Ls">Wikipedia Entry</a></p>
+<h4 id="example-usage_5">Example Usage</h4>
+<pre><code>ls
+
+# View contents of your home directory
+ls ~/
+</code></pre>
+
+<h2 id="man"><code>man</code></h2>
+<p>When you are stuck, the <code>man</code> command can display system documentation for a given command. For more information see the <a href="https://en.wikipedia.org/wiki/Man_page">Wikipedia Entry</a></p>
+<h4 id="example-usage_6">Example Usage</h4>
+<pre><code>man THE_COMMAND_OF_INTEREST
+man ls 
+man man
+man rm
+man head
+</code></pre>
+
+<h2 id="mkdir"><code>mkdir</code></h2>
+<p>The <code>mkdir</code> command allows you to make directories. For more information see the <a href="https://en.wikipedia.org/wiki/Mkdir">Wikipedia Entry</a></p>
+<h4 id="example-usage_7">Example Usage</h4>
+<pre><code>mkdir my-new-directory
+
+# Make all sub-directories as well
+mkdir -p sub-dir01/sub-dir02/my-new-directory
+</code></pre>
+
+<h2 id="mv"><code>mv</code></h2>
+<p>The <code>mv</code> command allows you to move files between directories. You can also use the <code>mv</code> command to rename files. For more information see the <a href="https://en.wikipedia.org/wiki/Mv">Wikipedia Entry</a></p>
+<h4 id="example-usage_8">Example Usage</h4>
+<pre><code># Move a file to your home directory
+mv my-file.txt ~/
+
+# Move a file to your home directory and renome it
+mv my-file.txt ~/my-new-file.txt
+</code></pre>
+
+<h2 id="pwd"><code>pwd</code></h2>
+<p>Sometimee you need to know which directory you are currently in. The <code>pwd</code> command does exactly that. It will print your working directory. For more information see the <a href="https://en.wikipedia.org/wiki/Pwd">Wikipedia Entry</a></p>
+<h4 id="example-usage_9">Example Usage</h4>
+<pre><code># Really not much to it!
+pwd
+</code></pre>
+
+<h2 id="rm"><code>rm</code></h2>
+<p>Probably one the most unforgiven commands in Unix. The <code>rm</code> command allows you to remove (or delete) a file from the system. It is unforgiven in the sense of there are no take backs. For more information see the <a href="https://en.wikipedia.org/wiki/Rm_(Unix)">Wikipedia Entry</a></p>
+<h4 id="example-usage_10">Example Usage</h4>
+<pre><code>rm my-file.txt
+
+# Remove a directory with contents
+rm -rf my-directory/
+</code></pre>
+
+<h2 id="tail"><code>tail</code></h2>
+<p>Similar to <code>head</code>, the <code>tail</code> command does the exact opposite by displaying only the last part of a file. For more information see the <a href="https://en.wikipedia.org/wiki/Tail_(Unix)">Wikipedia Entry</a></p>
+<h4 id="example-usage_11">Example Usage</h4>
+<pre><code># View last 10 lines of a file
+tail my-large-file.txt
+
+# View last line of a file
+tail -n 1 my-file.txt
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../getting-setup/" class="btn btn-neutral" title="Getting Setup"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../getting-setup/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+
+</body>
+</html>

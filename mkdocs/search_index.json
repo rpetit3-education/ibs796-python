@@ -2,133 +2,223 @@
     "docs": [
         {
             "location": "/", 
-            "text": "So you want to learn Python?\n\n\nThe aim of this site is to aggregate the number of resources available for learning Python. Think of this more as a library or starting point. Sure you could just Google \n\"Python Resources\"\n and start your trip down Python road! But, let this site act as a resource to off load the curation for you!\n\n\nZen of Python\n\n\nThe \nZen of Python\n is a set of programming practices that have been influential in the design of Python. Read it, it really does a great job an encapsulating good programming practices (not just for Python) to follow.\n\n\n import this\nThe Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\nExplicit is better than implicit.\nSimple is better than complex.\nComplex is better than complicated.\nFlat is better than nested.\nSparse is better than dense.\nReadability counts.\nSpecial cases aren't special enough to break the rules.\nAlthough practicality beats purity.\nErrors should never pass silently.\nUnless explicitly silenced.\nIn the face of ambiguity, refuse the temptation to guess.\nThere should be one-- and preferably only one --obvious way to do it.\nAlthough that way may not be obvious at first unless you're Dutch.\nNow is better than never.\nAlthough never is often better than *right* now.\nIf the implementation is hard to explain, it's a bad idea.\nIf the implementation is easy to explain, it may be a good idea.\nNamespaces are one honking great idea -- let's do more of those!\n\n\n\n\nSite Layout\n\n\n\n\nGetting Setup\n\n\nLearning Materials\n\n\nFun Problems!", 
+            "text": "Welcome To IBS796!\n\n\nThis GitHub Page will act as the central resource for our \nIBS796 - Advanced Python Programming in Bioinformatics\n course. Henceforth, we can just call it our Python course! Everything covered in lecture will likely end up here, only in more details.\n\n\nAbout IBS796\n\n\nIBS796, \nthe Python course\n, is a course that has been brewing for the last few years. Really since the previous Fall 2013 programming course taught by James Taylor and Tim Read. The goal of this course is to introduce students to microbial genomics via Python. We will spend a few weeks getting everyone up to speed on their Python skills. Afterwards, we will dive into full fledged microbial genomic data analysis! It is our hope that upon completion of this course, you will be able to programmatically answer your scientific questions.\n\n\nCourse Time and Location\n\n\nWe will meet each Monday from 9:30-11:30AM in CNR5001.\n\n\nRequirements For IBS796\n\n\nYou will need the following:\n\n\n\n\nA laptop (with admin privileges)\n\n\nPython 2.7\n\n\nA GitHub account\n\n\n\n\nSite Layout\n\n\nCourse Materials\n\n\nUnder \nCourse Materials\n you can find links to lecture slides and the homework assignments. Any other handouts in class, can also be found here.\n\n\nGetting Setup\n\n\nSome basic outlines and tutorials on what you need for this course.\n\n\nBasic Unix Commands\n\n\nHere you will find basic Unix commands you will expected to know for the course.", 
             "title": "Home"
         }, 
         {
-            "location": "/#so-you-want-to-learn-python", 
-            "text": "The aim of this site is to aggregate the number of resources available for learning Python. Think of this more as a library or starting point. Sure you could just Google  \"Python Resources\"  and start your trip down Python road! But, let this site act as a resource to off load the curation for you!", 
-            "title": "So you want to learn Python?"
+            "location": "/#welcome-to-ibs796", 
+            "text": "This GitHub Page will act as the central resource for our  IBS796 - Advanced Python Programming in Bioinformatics  course. Henceforth, we can just call it our Python course! Everything covered in lecture will likely end up here, only in more details.", 
+            "title": "Welcome To IBS796!"
         }, 
         {
-            "location": "/#zen-of-python", 
-            "text": "The  Zen of Python  is a set of programming practices that have been influential in the design of Python. Read it, it really does a great job an encapsulating good programming practices (not just for Python) to follow.   import this\nThe Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\nExplicit is better than implicit.\nSimple is better than complex.\nComplex is better than complicated.\nFlat is better than nested.\nSparse is better than dense.\nReadability counts.\nSpecial cases aren't special enough to break the rules.\nAlthough practicality beats purity.\nErrors should never pass silently.\nUnless explicitly silenced.\nIn the face of ambiguity, refuse the temptation to guess.\nThere should be one-- and preferably only one --obvious way to do it.\nAlthough that way may not be obvious at first unless you're Dutch.\nNow is better than never.\nAlthough never is often better than *right* now.\nIf the implementation is hard to explain, it's a bad idea.\nIf the implementation is easy to explain, it may be a good idea.\nNamespaces are one honking great idea -- let's do more of those!", 
-            "title": "Zen of Python"
+            "location": "/#about-ibs796", 
+            "text": "IBS796,  the Python course , is a course that has been brewing for the last few years. Really since the previous Fall 2013 programming course taught by James Taylor and Tim Read. The goal of this course is to introduce students to microbial genomics via Python. We will spend a few weeks getting everyone up to speed on their Python skills. Afterwards, we will dive into full fledged microbial genomic data analysis! It is our hope that upon completion of this course, you will be able to programmatically answer your scientific questions.", 
+            "title": "About IBS796"
+        }, 
+        {
+            "location": "/#course-time-and-location", 
+            "text": "We will meet each Monday from 9:30-11:30AM in CNR5001.", 
+            "title": "Course Time and Location"
+        }, 
+        {
+            "location": "/#requirements-for-ibs796", 
+            "text": "You will need the following:   A laptop (with admin privileges)  Python 2.7  A GitHub account", 
+            "title": "Requirements For IBS796"
         }, 
         {
             "location": "/#site-layout", 
-            "text": "Getting Setup  Learning Materials  Fun Problems!", 
+            "text": "", 
             "title": "Site Layout"
         }, 
         {
-            "location": "/setup/", 
-            "text": "In order to begin learning about Python, we'll need to do a few things. For starters, from here on out when I mention \nPython\n you can assume I'm talking about Python 2.7. In the event I mention \nPython 3.5\n, I will explicitly state \nPython3\n. For those interested in the difference between Python 2.7 and Python 3.5, please see the following: \nPython 2 or Python 3\n\n\nInstalling Python\n\n\nOSX \n Linux\n\n\nYou're in luck! In all likelihood Python is already installed. To confirm this open up a terminal and type \npython --version\n\n\n$ python --version\nPython 2.7.11\n\n\n\n\nWindows 10\n\n\nIf you are using Windows 10, you may be in luck. Recently Microsoft has added\nsupport for a bash environment (read more \nBash on Ubuntu on Windows\n). This update it set to be released to the public early August 2016.\n\n\nDepending on how it works out, this is likely to be your best bet! Otherwise you can follow the same procedures below for Windows 7 and 8.\n\n\nWindows 7 \n 8.1\n\n\nYou will want to download\n\n\nRecommended Text Editors", 
+            "location": "/#course-materials", 
+            "text": "Under  Course Materials  you can find links to lecture slides and the homework assignments. Any other handouts in class, can also be found here.", 
+            "title": "Course Materials"
+        }, 
+        {
+            "location": "/#getting-setup", 
+            "text": "Some basic outlines and tutorials on what you need for this course.", 
             "title": "Getting Setup"
         }, 
         {
-            "location": "/setup/#installing-python", 
+            "location": "/#basic-unix-commands", 
+            "text": "Here you will find basic Unix commands you will expected to know for the course.", 
+            "title": "Basic Unix Commands"
+        }, 
+        {
+            "location": "/course-materials/", 
+            "text": "Weekly Slides\n\n\nBelow is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Introductions, Unix, Git\n\n\nAugust 29th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\n\n\nWeekly Homework\n\n\nSame as above, below is a table of weekly homework assignments. \n\n\n\n\n\n\n\n\nTitle\n\n\nDue Date\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Getting Familiar With Git/GitHub\n\n\nSeptember 12th, 2016\n\n\nLink\n, \nPDF", 
+            "title": "Course Materials"
+        }, 
+        {
+            "location": "/course-materials/#weekly-slides", 
+            "text": "Below is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.     Title  Date  Google Docs      Week 1 - Introductions, Unix, Git  August 29th, 2016  Link ,  PDF", 
+            "title": "Weekly Slides"
+        }, 
+        {
+            "location": "/course-materials/#weekly-homework", 
+            "text": "Same as above, below is a table of weekly homework assignments.      Title  Due Date  Google Docs      Week 1 - Getting Familiar With Git/GitHub  September 12th, 2016  Link ,  PDF", 
+            "title": "Weekly Homework"
+        }, 
+        {
+            "location": "/getting-setup/", 
+            "text": "In order to begin learning about Python, we'll need to do a few things. For starters, from here on out when I mention \nPython\n you can assume I'm talking about Python 2.7. In the event I mention \nPython 3.5\n, I will explicitly state \nPython3\n. For those interested in the difference between Python 2.7 and Python 3.5, please see the following: \nPython 2 or Python 3\n\n\nInstalling Python\n\n\nOSX \n Linux\n\n\nYou're in luck! In all likelihood Python is already installed. To confirm this open up a terminal and type \npython --version\n\n\n$ python --version\nPython 2.7.11\n\n\n\n\nWindows 10\n\n\nIf you are using Windows 10, you may be in luck. Recently Microsoft has added\nnative bash support. \n\n\nWindows 7 \n 8.1\n\n\nYou will want to download\n\n\nRecommended Text Editors", 
+            "title": "Getting Setup"
+        }, 
+        {
+            "location": "/getting-setup/#installing-python", 
             "text": "", 
             "title": "Installing Python"
         }, 
         {
-            "location": "/setup/#osx-linux", 
+            "location": "/getting-setup/#osx-linux", 
             "text": "You're in luck! In all likelihood Python is already installed. To confirm this open up a terminal and type  python --version  $ python --version\nPython 2.7.11", 
             "title": "OSX &amp; Linux"
         }, 
         {
-            "location": "/setup/#windows-10", 
-            "text": "If you are using Windows 10, you may be in luck. Recently Microsoft has added\nsupport for a bash environment (read more  Bash on Ubuntu on Windows ). This update it set to be released to the public early August 2016.  Depending on how it works out, this is likely to be your best bet! Otherwise you can follow the same procedures below for Windows 7 and 8.", 
+            "location": "/getting-setup/#windows-10", 
+            "text": "If you are using Windows 10, you may be in luck. Recently Microsoft has added\nnative bash support.", 
             "title": "Windows 10"
         }, 
         {
-            "location": "/setup/#windows-7-81", 
+            "location": "/getting-setup/#windows-7-81", 
             "text": "You will want to download", 
             "title": "Windows 7 &amp; 8.1"
         }, 
         {
-            "location": "/setup/#recommended-text-editors", 
+            "location": "/getting-setup/#recommended-text-editors", 
             "text": "", 
             "title": "Recommended Text Editors"
         }, 
         {
-            "location": "/materials/", 
-            "text": "Overview\n\n\nThere are a number of ways to learning Python (or any programming language!). Some of us like to go at our own pace with text books, others like to sit through courses. Some even prefer just to dive in and figure it out as they go. It doesn't matter what you do, it only matters that you keep at it!\n\n\nBelow I've listed a number of potential resources you can use to begin/refresh your adventure into Python.\n\n\nRecomendations\n\n\nFor absolute beginners I would recomend you check out \nCodecademy's Learn Python\n course. It's probably the easiest to begin with. It does a good job of holding your hand through the process and does not require any initial setup. Once you've completed the course then you can begin to explore other materials.\n\n\nIf you are already familar with software development, you can disregard the statement above and begin exploration at your own discretion!\n\n\nOfficial Docs\n\n\nAs you code more and more, you can expect to read documentation more and more! Python is no exception! At least the standard library is really well documented. Keep the following link handy: \nPython 2.7 Official Docs\n.\n\n\neBooks\n\n\nLearn Python The Hard Way\n\n\nZed Shaw's \nLearn Python the Hard Way\n takes a sink or swim type of approach. You will be coding from the get go as each lesson is a exercise in Python coding.\n\n\nPython Programming\n\n\nPython Programming is a wikibook that covers the basic and further delves into advanced topics. \n\n\nThink Python: How to Think Like a Computer Scientist\n\n\nWhile this book covers all the basics of Python, it is not really a \"learn Python\" book. It instead aims to mold the reader into a Python developer. Therefore you can expect a more philosophical approach to learning Python (hence the title!).\n\n\nOnline Lecture Based Courses\n\n\nIntroduction to Python for Data Science\n\n\nMicrosoft's edX course covers the basics of Python and currently has good reviews. It also goes a little deeper into data analysis covering useful Python packages such as Numpy and Pandas.\n\n\nGoogle's Python Class\n\n\nNick Parlante's course \nGoogle's Python Course\n comes highly recommended. It covers the basics of Python and includes videos for each lecture. \n\n\nOnline Problem Based Courses\n\n\nCodecademy Python\n\n\nCodecademy provides an interactive introduction to learning Python. For the most part you can write and execute Python (I'm sure there are some limitations!) code from your browser. This allows you to get comfortable with Python first before getting everything set up on your local machine.\n\n\nLearnPython.org\n\n\nWhile not as polished as Codeacemy, LearnPython.org also allows you to become introduced to Python via your browser. Unlike Codeacdemy, LearnPython does include introductions into more advanced topics.\n\n\nRosalind - Python Village\n\n\nRosalind has a set of problems called \nPython Village\n. While Python Vilage is only 6 problems, it is more so meant to get you off your feet quickly. Think of Python Village as a segway to working on Rosalind's other problem sets, for example \nBioinformatics Stronghold\n.  \n\n\nSoftware Carpentry - Programming In Python\n\n\nIf you're feeling comfortable with Python, head on over to the Software Carpentry to go a little deeper into Python. Keep in mind, this one skips some of the basics of Python and instead just throws you into the mix.", 
-            "title": "Learning Materials"
+            "location": "/basic-unix/", 
+            "text": "During this course you will have to play with some basic Unix commands. Below are a list of Unix commands you are expected to become comfortable with. You are highly encouraged to further explore Unix, as there are some super useful commands that are outside the context of this course.\n\n\nYou are strongly encouraged to further investigate the optional parameters of each of these commands!\n\n\nWhat is Unix?\n\n\nFirst let's clarify what Unix is and why its so cool! Unix is a (and I'm paraphrasing from the \nWikipedia entry\n) multi-user multi-tasking operating systems. It was originally developed by Bell Labs in 1970. Fast forward a few decades, it is the basis for Apple's OS X and the many flavors of \nLinux\n. Even Microsoft has begun to implement it into their latest Windows 10 versions via \nWindows Subsystem for Linux\n.\n\n\ncat\n\n\nThe \ncat\n command allows you to concatenate and print files. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\ncat somefile.txt\ncat file-001.txt file-002.txt ... file-XYZ.txt\n\n\n\n\ncd\n\n\nGood luck avoiding \ncd\n! The \ncd\n command allows you to change the working directory, thus navigate between directories. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\ncd a_directory/\n\n# ~/ points to your home directory\ncd ~/data_analysis/\n\n\n\n\nchmod\n\n\nThe \nchmod\n command allows you to change the file modes/attributes/permissions. For example is allows you to determing who can read or write to one of your files. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\n# Make potential examples!\n# Make a file readable and executable by everyone\nchmod 755 my-python-script.py\n\n\n\n\ncp\n\n\nThe \ncp\n command allows you to copy files. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\ncp FILE NEW_FILE\n\ncp my-large-text-file.txt my-second-large-text-file.txt\n\n\n\n\nhead\n\n\nSometimes you don't need to read all of a file. The \nhead\n command will print only the first part of files. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\n# View first 10 lines of a file\nhead my-large-file.txt\n\n# View first line of a file\nhead -n 1 my-file.txt\n\n\n\n\nls\n\n\nAnother command which is hard to avoid is the \nls\n command. \nls\n is used to list the contents of a directory. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\nls\n\n# View contents of your home directory\nls ~/\n\n\n\n\nman\n\n\nWhen you are stuck, the \nman\n command can display system documentation for a given command. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\nman THE_COMMAND_OF_INTEREST\nman ls \nman man\nman rm\nman head\n\n\n\n\nmkdir\n\n\nThe \nmkdir\n command allows you to make directories. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\nmkdir my-new-directory\n\n# Make all sub-directories as well\nmkdir -p sub-dir01/sub-dir02/my-new-directory\n\n\n\n\nmv\n\n\nThe \nmv\n command allows you to move files between directories. You can also use the \nmv\n command to rename files. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\n# Move a file to your home directory\nmv my-file.txt ~/\n\n# Move a file to your home directory and renome it\nmv my-file.txt ~/my-new-file.txt\n\n\n\n\npwd\n\n\nSometimee you need to know which directory you are currently in. The \npwd\n command does exactly that. It will print your working directory. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\n# Really not much to it!\npwd\n\n\n\n\nrm\n\n\nProbably one the most unforgiven commands in Unix. The \nrm\n command allows you to remove (or delete) a file from the system. It is unforgiven in the sense of there are no take backs. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\nrm my-file.txt\n\n# Remove a directory with contents\nrm -rf my-directory/\n\n\n\n\ntail\n\n\nSimilar to \nhead\n, the \ntail\n command does the exact opposite by displaying only the last part of a file. For more information see the \nWikipedia Entry\n\n\nExample Usage\n\n\n# View last 10 lines of a file\ntail my-large-file.txt\n\n# View last line of a file\ntail -n 1 my-file.txt", 
+            "title": "Basic Unix Commands"
         }, 
         {
-            "location": "/materials/#overview", 
-            "text": "There are a number of ways to learning Python (or any programming language!). Some of us like to go at our own pace with text books, others like to sit through courses. Some even prefer just to dive in and figure it out as they go. It doesn't matter what you do, it only matters that you keep at it!  Below I've listed a number of potential resources you can use to begin/refresh your adventure into Python.", 
-            "title": "Overview"
+            "location": "/basic-unix/#what-is-unix", 
+            "text": "First let's clarify what Unix is and why its so cool! Unix is a (and I'm paraphrasing from the  Wikipedia entry ) multi-user multi-tasking operating systems. It was originally developed by Bell Labs in 1970. Fast forward a few decades, it is the basis for Apple's OS X and the many flavors of  Linux . Even Microsoft has begun to implement it into their latest Windows 10 versions via  Windows Subsystem for Linux .", 
+            "title": "What is Unix?"
         }, 
         {
-            "location": "/materials/#recomendations", 
-            "text": "For absolute beginners I would recomend you check out  Codecademy's Learn Python  course. It's probably the easiest to begin with. It does a good job of holding your hand through the process and does not require any initial setup. Once you've completed the course then you can begin to explore other materials.  If you are already familar with software development, you can disregard the statement above and begin exploration at your own discretion!", 
-            "title": "Recomendations"
+            "location": "/basic-unix/#cat", 
+            "text": "The  cat  command allows you to concatenate and print files. For more information see the  Wikipedia Entry", 
+            "title": "cat"
         }, 
         {
-            "location": "/materials/#official-docs", 
-            "text": "As you code more and more, you can expect to read documentation more and more! Python is no exception! At least the standard library is really well documented. Keep the following link handy:  Python 2.7 Official Docs .", 
-            "title": "Official Docs"
+            "location": "/basic-unix/#example-usage", 
+            "text": "cat somefile.txt\ncat file-001.txt file-002.txt ... file-XYZ.txt", 
+            "title": "Example Usage"
         }, 
         {
-            "location": "/materials/#ebooks", 
-            "text": "", 
-            "title": "eBooks"
+            "location": "/basic-unix/#cd", 
+            "text": "Good luck avoiding  cd ! The  cd  command allows you to change the working directory, thus navigate between directories. For more information see the  Wikipedia Entry", 
+            "title": "cd"
         }, 
         {
-            "location": "/materials/#learn-python-the-hard-way", 
-            "text": "Zed Shaw's  Learn Python the Hard Way  takes a sink or swim type of approach. You will be coding from the get go as each lesson is a exercise in Python coding.", 
-            "title": "Learn Python The Hard Way"
+            "location": "/basic-unix/#example-usage_1", 
+            "text": "cd a_directory/\n\n# ~/ points to your home directory\ncd ~/data_analysis/", 
+            "title": "Example Usage"
         }, 
         {
-            "location": "/materials/#python-programming", 
-            "text": "Python Programming is a wikibook that covers the basic and further delves into advanced topics.", 
-            "title": "Python Programming"
+            "location": "/basic-unix/#chmod", 
+            "text": "The  chmod  command allows you to change the file modes/attributes/permissions. For example is allows you to determing who can read or write to one of your files. For more information see the  Wikipedia Entry", 
+            "title": "chmod"
         }, 
         {
-            "location": "/materials/#think-python-how-to-think-like-a-computer-scientist", 
-            "text": "While this book covers all the basics of Python, it is not really a \"learn Python\" book. It instead aims to mold the reader into a Python developer. Therefore you can expect a more philosophical approach to learning Python (hence the title!).", 
-            "title": "Think Python: How to Think Like a Computer Scientist"
+            "location": "/basic-unix/#example-usage_2", 
+            "text": "# Make potential examples!\n# Make a file readable and executable by everyone\nchmod 755 my-python-script.py", 
+            "title": "Example Usage"
         }, 
         {
-            "location": "/materials/#online-lecture-based-courses", 
-            "text": "", 
-            "title": "Online Lecture Based Courses"
+            "location": "/basic-unix/#cp", 
+            "text": "The  cp  command allows you to copy files. For more information see the  Wikipedia Entry", 
+            "title": "cp"
         }, 
         {
-            "location": "/materials/#introduction-to-python-for-data-science", 
-            "text": "Microsoft's edX course covers the basics of Python and currently has good reviews. It also goes a little deeper into data analysis covering useful Python packages such as Numpy and Pandas.", 
-            "title": "Introduction to Python for Data Science"
+            "location": "/basic-unix/#example-usage_3", 
+            "text": "cp FILE NEW_FILE\n\ncp my-large-text-file.txt my-second-large-text-file.txt", 
+            "title": "Example Usage"
         }, 
         {
-            "location": "/materials/#googles-python-class", 
-            "text": "Nick Parlante's course  Google's Python Course  comes highly recommended. It covers the basics of Python and includes videos for each lecture.", 
-            "title": "Google's Python Class"
+            "location": "/basic-unix/#head", 
+            "text": "Sometimes you don't need to read all of a file. The  head  command will print only the first part of files. For more information see the  Wikipedia Entry", 
+            "title": "head"
         }, 
         {
-            "location": "/materials/#online-problem-based-courses", 
-            "text": "", 
-            "title": "Online Problem Based Courses"
+            "location": "/basic-unix/#example-usage_4", 
+            "text": "# View first 10 lines of a file\nhead my-large-file.txt\n\n# View first line of a file\nhead -n 1 my-file.txt", 
+            "title": "Example Usage"
         }, 
         {
-            "location": "/materials/#codecademy-python", 
-            "text": "Codecademy provides an interactive introduction to learning Python. For the most part you can write and execute Python (I'm sure there are some limitations!) code from your browser. This allows you to get comfortable with Python first before getting everything set up on your local machine.", 
-            "title": "Codecademy Python"
+            "location": "/basic-unix/#ls", 
+            "text": "Another command which is hard to avoid is the  ls  command.  ls  is used to list the contents of a directory. For more information see the  Wikipedia Entry", 
+            "title": "ls"
         }, 
         {
-            "location": "/materials/#learnpythonorg", 
-            "text": "While not as polished as Codeacemy, LearnPython.org also allows you to become introduced to Python via your browser. Unlike Codeacdemy, LearnPython does include introductions into more advanced topics.", 
-            "title": "LearnPython.org"
+            "location": "/basic-unix/#example-usage_5", 
+            "text": "ls\n\n# View contents of your home directory\nls ~/", 
+            "title": "Example Usage"
         }, 
         {
-            "location": "/materials/#rosalind-python-village", 
-            "text": "Rosalind has a set of problems called  Python Village . While Python Vilage is only 6 problems, it is more so meant to get you off your feet quickly. Think of Python Village as a segway to working on Rosalind's other problem sets, for example  Bioinformatics Stronghold .", 
-            "title": "Rosalind - Python Village"
+            "location": "/basic-unix/#man", 
+            "text": "When you are stuck, the  man  command can display system documentation for a given command. For more information see the  Wikipedia Entry", 
+            "title": "man"
         }, 
         {
-            "location": "/materials/#software-carpentry-programming-in-python", 
-            "text": "If you're feeling comfortable with Python, head on over to the Software Carpentry to go a little deeper into Python. Keep in mind, this one skips some of the basics of Python and instead just throws you into the mix.", 
-            "title": "Software Carpentry - Programming In Python"
+            "location": "/basic-unix/#example-usage_6", 
+            "text": "man THE_COMMAND_OF_INTEREST\nman ls \nman man\nman rm\nman head", 
+            "title": "Example Usage"
+        }, 
+        {
+            "location": "/basic-unix/#mkdir", 
+            "text": "The  mkdir  command allows you to make directories. For more information see the  Wikipedia Entry", 
+            "title": "mkdir"
+        }, 
+        {
+            "location": "/basic-unix/#example-usage_7", 
+            "text": "mkdir my-new-directory\n\n# Make all sub-directories as well\nmkdir -p sub-dir01/sub-dir02/my-new-directory", 
+            "title": "Example Usage"
+        }, 
+        {
+            "location": "/basic-unix/#mv", 
+            "text": "The  mv  command allows you to move files between directories. You can also use the  mv  command to rename files. For more information see the  Wikipedia Entry", 
+            "title": "mv"
+        }, 
+        {
+            "location": "/basic-unix/#example-usage_8", 
+            "text": "# Move a file to your home directory\nmv my-file.txt ~/\n\n# Move a file to your home directory and renome it\nmv my-file.txt ~/my-new-file.txt", 
+            "title": "Example Usage"
+        }, 
+        {
+            "location": "/basic-unix/#pwd", 
+            "text": "Sometimee you need to know which directory you are currently in. The  pwd  command does exactly that. It will print your working directory. For more information see the  Wikipedia Entry", 
+            "title": "pwd"
+        }, 
+        {
+            "location": "/basic-unix/#example-usage_9", 
+            "text": "# Really not much to it!\npwd", 
+            "title": "Example Usage"
+        }, 
+        {
+            "location": "/basic-unix/#rm", 
+            "text": "Probably one the most unforgiven commands in Unix. The  rm  command allows you to remove (or delete) a file from the system. It is unforgiven in the sense of there are no take backs. For more information see the  Wikipedia Entry", 
+            "title": "rm"
+        }, 
+        {
+            "location": "/basic-unix/#example-usage_10", 
+            "text": "rm my-file.txt\n\n# Remove a directory with contents\nrm -rf my-directory/", 
+            "title": "Example Usage"
+        }, 
+        {
+            "location": "/basic-unix/#tail", 
+            "text": "Similar to  head , the  tail  command does the exact opposite by displaying only the last part of a file. For more information see the  Wikipedia Entry", 
+            "title": "tail"
+        }, 
+        {
+            "location": "/basic-unix/#example-usage_11", 
+            "text": "# View last 10 lines of a file\ntail my-large-file.txt\n\n# View last line of a file\ntail -n 1 my-file.txt", 
+            "title": "Example Usage"
         }
     ]
 }

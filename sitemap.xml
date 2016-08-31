@@ -4,23 +4,31 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-07-07</lastmod>
+     <lastmod>2016-08-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/setup/</loc>
-     <lastmod>2016-07-07</lastmod>
+     <loc>None/course-materials/</loc>
+     <lastmod>2016-08-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/materials/</loc>
-     <lastmod>2016-07-07</lastmod>
+     <loc>None/getting-setup/</loc>
+     <lastmod>2016-08-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/basic-unix/</loc>
+     <lastmod>2016-08-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
