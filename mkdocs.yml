@@ -1,8 +1,8 @@
-site_name: Python Resources
+site_name: IBS796 - Advanced Python Programming in Bioinformatics
 pages:
 - Home: index.md
-- Course Resources: course-resources.md
-- Getting Setup: setup.md
+- Course Materials: course-materials.md
+- Getting Setup: getting-setup.md
 - Basic Unix Commands: basic-unix.md
-- Advanced Unix Commands: advanced-unix.md
+#- Advanced Unix Commands: advanced-unix.md
 theme: readthedocs
