@@ -11,7 +11,7 @@ Same as above, below is a table of weekly homework assignments.
 
 | Title | Due Date | Google Docs|
 |-------|:------:|:------------------:|
-| Week 1 - Getting Familiar With Git/GitHub | September 12th, 2016 | [Link](https://docs.google.com/document/d/1cPkJeXnqxgGOiTjpdeBCdffrJNN3A9An0ro2I0RvB0A/edit?usp=sharing), [PDF](https://github.com/rpetit3-education/ibs796-python/raw/master/resources/homework/week01-getting-familiar-with-git.pdf)|
-| Week 2 - Jumping into Python | September 19th, 2016 | [Link](https://docs.google.com/document/d/1H70zR_QA40_4RtXFWnmjGKDVzL6J9JLGw-gR8cy0Jwk/edit?usp=sharing), [PDF](https://github.com/rpetit3-education/ibs796-python/raw/master/resources/homework/week02-jumping-into-python.pdf)|
+| Week 1 - Getting Familiar With Git/GitHub | September 12th, 2016 | [Link](https://docs.google.com/document/d/1cPkJeXnqxgGOiTjpdeBCdffrJNN3A9An0ro2I0RvB0A/edit?usp=sharing), [PDF](https://github.com/rpetit3-education/ibs796-python/raw/master/resources/homework/week01_HW-getting-familiar-with-git.pdf)|
+| Week 2 - Jumping into Python | September 19th, 2016 | [Link](https://docs.google.com/document/d/1H70zR_QA40_4RtXFWnmjGKDVzL6J9JLGw-gR8cy0Jwk/edit?usp=sharing), [PDF](https://github.com/rpetit3-education/ibs796-python/raw/master/resources/homework/week02_HW-jumping-into-python.pdf)|
 
 
