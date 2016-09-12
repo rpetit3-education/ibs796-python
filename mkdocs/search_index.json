@@ -47,22 +47,22 @@
         }, 
         {
             "location": "/course-materials/", 
-            "text": "Weekly Slides\n\n\nBelow is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Introductions, Unix, Git\n\n\nAugust 29th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\n\n\nWeekly Homework\n\n\nSame as above, below is a table of weekly homework assignments. \n\n\n\n\n\n\n\n\nTitle\n\n\nDue Date\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Getting Familiar With Git/GitHub\n\n\nSeptember 12th, 2016\n\n\nLink\n, \nPDF", 
+            "text": "Weekly Slides\n\n\nBelow is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Introductions, Unix, Git\n\n\nAugust 29th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\nWeek 2 - Jumping into Python\n\n\nSeptember 12th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\n\n\nWeekly Homework\n\n\nSame as above, below is a table of weekly homework assignments. \n\n\n\n\n\n\n\n\nTitle\n\n\nDue Date\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Getting Familiar With Git/GitHub\n\n\nSeptember 12th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\nWeek 2 - Jumping into Python\n\n\nSeptember 19th, 2016\n\n\nLink\n, \nPDF", 
             "title": "Course Materials"
         }, 
         {
             "location": "/course-materials/#weekly-slides", 
-            "text": "Below is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.     Title  Date  Google Docs      Week 1 - Introductions, Unix, Git  August 29th, 2016  Link ,  PDF", 
+            "text": "Below is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.     Title  Date  Google Docs      Week 1 - Introductions, Unix, Git  August 29th, 2016  Link ,  PDF    Week 2 - Jumping into Python  September 12th, 2016  Link ,  PDF", 
             "title": "Weekly Slides"
         }, 
         {
             "location": "/course-materials/#weekly-homework", 
-            "text": "Same as above, below is a table of weekly homework assignments.      Title  Due Date  Google Docs      Week 1 - Getting Familiar With Git/GitHub  September 12th, 2016  Link ,  PDF", 
+            "text": "Same as above, below is a table of weekly homework assignments.      Title  Due Date  Google Docs      Week 1 - Getting Familiar With Git/GitHub  September 12th, 2016  Link ,  PDF    Week 2 - Jumping into Python  September 19th, 2016  Link ,  PDF", 
             "title": "Weekly Homework"
         }, 
         {
             "location": "/getting-setup/", 
-            "text": "In order to begin learning about Python, we'll need to do a few things. For starters, from here on out when I mention \nPython\n you can assume I'm talking about Python 2.7. In the event I mention \nPython 3.5\n, I will explicitly state \nPython3\n. For those interested in the difference between Python 2.7 and Python 3.5, please see the following: \nPython 2 or Python 3\n\n\nInstalling Python\n\n\nOSX \n Linux\n\n\nYou're in luck! In all likelihood Python is already installed. To confirm this open up a terminal and type \npython --version\n\n\n$ python --version\nPython 2.7.11\n\n\n\n\nWindows 10\n\n\nIf you are using Windows 10, you may be in luck. Recently Microsoft has added\nnative bash support. \n\n\nWindows 7 \n 8.1\n\n\nYou will want to download\n\n\nRecommended Text Editors", 
+            "text": "In order to begin learning about Python, we'll need to do a few things. For starters, from here on out when I mention \nPython\n you can assume I'm talking about Python 2.7. In the event I mention \nPython 3.5\n, I will explicitly state \nPython3\n. For those interested in the difference between Python 2.7 and Python 3.5, please see the following: \nPython 2 or Python 3\n\n\nInstalling Python\n\n\nOSX \n Linux\n\n\nYou're in luck! In all likelihood Python is already installed. To confirm this open up a terminal and type \npython --version\n\n\n$ python --version\nPython 2.7.11\n\n\n\n\nWindows 10\n\n\nIf you are using Windows 10, you may be in luck. Recently Microsoft has added\nnative bash support. \n\n\nWindows 7 \n 8.1", 
             "title": "Getting Setup"
         }, 
         {
@@ -82,13 +82,8 @@
         }, 
         {
             "location": "/getting-setup/#windows-7-81", 
-            "text": "You will want to download", 
-            "title": "Windows 7 &amp; 8.1"
-        }, 
-        {
-            "location": "/getting-setup/#recommended-text-editors", 
             "text": "", 
-            "title": "Recommended Text Editors"
+            "title": "Windows 7 &amp; 8.1"
         }, 
         {
             "location": "/basic-unix/", 
