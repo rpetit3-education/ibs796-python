@@ -18,7 +18,6 @@ native bash support.
 
 ### Windows 7 & 8.1
 
-You will want to download
 
-# Recommended Text Editors
+
 
