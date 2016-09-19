@@ -4,5 +4,6 @@ pages:
 - Course Materials: course-materials.md
 - Getting Setup: getting-setup.md
 - Basic Unix Commands: basic-unix.md
+#- Python Basics: python-basics.md
 #- Advanced Unix Commands: advanced-unix.md
 theme: readthedocs
