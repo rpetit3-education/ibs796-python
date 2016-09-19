@@ -47,17 +47,17 @@
         }, 
         {
             "location": "/course-materials/", 
-            "text": "Weekly Slides\n\n\nBelow is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Introductions, Unix, Git\n\n\nAugust 29th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\nWeek 2 - Jumping into Python\n\n\nSeptember 12th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\n\n\nWeekly Homework\n\n\nSame as above, below is a table of weekly homework assignments. \n\n\n\n\n\n\n\n\nTitle\n\n\nDue Date\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Getting Familiar With Git/GitHub\n\n\nSeptember 12th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\nWeek 2 - Jumping into Python\n\n\nSeptember 19th, 2016\n\n\nLink\n, \nPDF", 
+            "text": "Weekly Slides\n\n\nBelow is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Introductions, Unix, Git\n\n\nAugust 29th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\nWeek 2 - Jumping into Python\n\n\nSeptember 12th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\nWeek 3 - Python Packages\n\n\nSeptember 19th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\n\n\nWeekly Homework\n\n\nSame as above, below is a table of weekly homework assignments. \n\n\n\n\n\n\n\n\nTitle\n\n\nDue Date\n\n\nGoogle Docs\n\n\n\n\n\n\n\n\n\n\nWeek 1 - Getting Familiar With Git/GitHub\n\n\nSeptember 12th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\nWeek 2 - Jumping into Python\n\n\nSeptember 19th, 2016\n\n\nLink\n, \nPDF\n\n\n\n\n\n\nWeek 3 - Unlocking Packages\n\n\nSeptember 26th, 2016\n\n\nLink\n, \nPDF", 
             "title": "Course Materials"
         }, 
         {
             "location": "/course-materials/#weekly-slides", 
-            "text": "Below is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.     Title  Date  Google Docs      Week 1 - Introductions, Unix, Git  August 29th, 2016  Link ,  PDF    Week 2 - Jumping into Python  September 12th, 2016  Link ,  PDF", 
+            "text": "Below is a table for weekly slides used in class. At the moment they are shared as 'view' only. If you would like to get access to edit them, please contact me and I'll share it to you as an individual.     Title  Date  Google Docs      Week 1 - Introductions, Unix, Git  August 29th, 2016  Link ,  PDF    Week 2 - Jumping into Python  September 12th, 2016  Link ,  PDF    Week 3 - Python Packages  September 19th, 2016  Link ,  PDF", 
             "title": "Weekly Slides"
         }, 
         {
             "location": "/course-materials/#weekly-homework", 
-            "text": "Same as above, below is a table of weekly homework assignments.      Title  Due Date  Google Docs      Week 1 - Getting Familiar With Git/GitHub  September 12th, 2016  Link ,  PDF    Week 2 - Jumping into Python  September 19th, 2016  Link ,  PDF", 
+            "text": "Same as above, below is a table of weekly homework assignments.      Title  Due Date  Google Docs      Week 1 - Getting Familiar With Git/GitHub  September 12th, 2016  Link ,  PDF    Week 2 - Jumping into Python  September 19th, 2016  Link ,  PDF    Week 3 - Unlocking Packages  September 26th, 2016  Link ,  PDF", 
             "title": "Weekly Homework"
         }, 
         {
